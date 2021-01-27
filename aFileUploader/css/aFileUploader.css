@@ -1,0 +1,187 @@
+.controllWindow {
+  height: 500px;
+  width: 700px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  background-color: #eeeeee;
+}
+/* background-color: rgb(78, 72, 72); */
+
+.inputsection {
+  height: 60%;
+  /* border: 1px solid rgb(21, 26, 13); */
+  /* background-color: rgba(106, 106, 223, 0.815); */
+}
+.inputBox {
+  margin-left: 5px;
+  margin-top: 5px;
+  max-height: 30%;
+  padding-right: 5px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+textarea.form-control {
+  height: auto;
+}
+.notes textarea {
+  left: 5px;
+}
+textarea {
+  overflow: auto;
+}
+.form-control {
+  display: block;
+  width: 80%;
+  max-width: 80%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 5px;
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-transition: border-color ease-in-out 0.15s,
+    -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.labels {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+#LeftContainer {
+  height: 100%;
+  float: left;
+  width: 40%;
+  max-width: 40%;
+  /* background-color: rgb(128, 129, 128); */
+}
+#RightContainer {
+  height: 100%;
+  width: 60%;
+  float: left;
+  /* background-color: #bbb; */
+}
+.inputBox {
+  height: 80%;
+  width: auto;
+  /* border: 1px solid black; */
+  margin-right: 5px;
+}
+.actionButton {
+  background: #fff;
+  border: 1px Solid #a9a9a9;
+  color: #000;
+  width: 100px;
+  min-height: 35px;
+  position: relative;
+  float: left;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+* {
+  margin: 0;
+  font-family: segoe\000020ui;
+  font-size: 14px;
+}
+.buttons {
+  height: 30%;
+  width: 100%;
+  margin-top: 200px;
+}
+.dragzone {
+  float: left;
+  height: 80%;
+  width: 95%;
+  color: #cccccc;
+  line-height: 300px;
+  border: 2px dashed #cccccc;
+  text-align: center;
+}
+
+#files .file {
+  background-color: #fff;
+  border: darkgray 1px solid;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 26px;
+  margin: 10px 0;
+  padding: 5px 10px;
+}
+
+#files .file span {
+  cursor: pointer;
+  float: right;
+  margin: 5px;
+}
+
+#files .file .progressBorder {
+  border: 1px Solid darkgray;
+  height: 2px;
+  width: 100%;
+  margin-top: 2px;
+}
+
+#files .file .progress {
+  height: 2px;
+  background-color: green;
+  width: 0%;
+}
+
+.upload {
+  width: 100px;
+  min-height: 30px;
+  float: left;
+  overflow: hidden;
+  margin-right: 10px;
+}
+
+div.upload input {
+  display: block !important;
+  width: 100px;
+  min-height: 35px;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  cursor: pointer;
+}
+
+div.upload input:hover {
+  background: #d7ebf9;
+  border: 2px Solid #d7ebf9;
+}
+
+.actionButton.browse {
+  float: left;
+  z-index: 2;
+  width: 100px;
+  position: absolute;
+  clear: both;
+  line-height: 33px;
+  pointer-events: none;
+}
+element.style {
+  margin-left: 5px;
+  width: 250px;
+  height: 61px;
+}
+.buttonsdiv {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+.dropzone {
+}
+.filecontainer {
+}
